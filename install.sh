@@ -23,3 +23,4 @@ echo "[✓] INSTALLATION COMPLETE"
 echo "[✓] Run tool with:"
 echo "    bash dashboard.sh"
 echo ""
+echo "1.0" > version.txt
