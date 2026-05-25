@@ -7,17 +7,17 @@ echo "   FASU TOOLKIT AUTO UPDATER"
 echo "=================================="
 echo ""
 
-echo "[+] Checking for updates..."
+echo "[+] Checking repository..."
 
-if [ -d ".git" ]; then
-    echo "[+] Git repository detected"
-else
-    echo "[!] Not a git repo. Cloning required."
+if [ ! -d ".git" ]; then
+    echo "[!] Not a git repository"
     exit
 fi
 
-echo "[+] Pulling latest updates from GitHub..."
-git pull origin main
+echo "[+] Updating from GitHub (no login required)..."
+
+# FORCE PUBLIC FETCH ONLY
+git -c credential.helper= pull origin main --no-rebase
 
 if [ $? -eq 0 ]; then
     echo ""
@@ -25,7 +25,8 @@ if [ $? -eq 0 ]; then
 else
     echo ""
     echo "[✗] Update failed!"
+    echo "Check internet or repo connection"
 fi
 
 echo ""
-echo "Done."
+echo "Done." 
