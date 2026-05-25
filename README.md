@@ -26,7 +26,7 @@ pkg install git -y
 ### Clone Repository
 
 ```bash
-git clone YOUR_REPOSITORY_LINK
+git clone https://github.com/Fasu2007/fasu_android_hacking.git
 ```
 
 ### Open Folder
