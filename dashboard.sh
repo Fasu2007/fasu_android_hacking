@@ -1,5 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
+clear
+echo "Starting FASU Toolkit..."
+sleep 1
+
 RED='\033[1;31m'
 GREEN='\033[1;32m'
 BLUE='\033[1;34m'

@@ -1,10 +1,13 @@
-# FASU Hacker Dashboard
+# FASU Android Toolkit PRO 🚀
 
-Advanced Android security dashboard for Termux.
+Advanced Android automation + security learning toolkit for Termux.
 
-## Features
+---
+
+## ⚡ Features
 
 - ADB device control
+ HEAD
 - Network scanning
 - Battery monitor
 - Wi-Fi scanner
@@ -62,13 +65,41 @@ chmod +x dashboard.sh
 
 This project is for:
 - cybersecurity learning
-- Android automation
-- ethical security testing
 
-Use only on devices you own or have permission to test.
+- Network scanning (nmap)
+ ffbabb2 (Upgrade to PRO version)
+- Android automation
+- Screenshot tools
+- System monitoring
+- Kali NetHunter support
+- Easy installer
 
 ---
 
-## Author
+## 📥 Installation (ONE COMMAND)
+
+```bash
+git clone https://github.com/Fasu2007/fasu_android_hacking.git
+cd fasu_android_hacking
+bash install.sh
+```
+
+---
+
+## ▶️ Run Tool
+
+```bash
+bash dashboard.sh
+```
+
+---
+
+## ⚠️ Disclaimer
+
+For educational use only. Use only on devices you own.
+
+---
+
+## 👨‍💻 Author
 
 FASU
